@@ -19,7 +19,7 @@ body {
 
 .card {
     border: 1px solid black;
-    width: 17vw;
+    width: 70vw;
     margin: 20vh auto 0;
     background-color: var(--neutral-white);
     display: flex;
@@ -62,6 +62,12 @@ body {
 
 .card-footer p {
     font-weight: 700;
+}
+
+@media screen and (min-width: 450px) {
+    .card {
+        width: 325px;
+    }
 }
 
 .attribution { font-size: 11px; text-align: center; }
